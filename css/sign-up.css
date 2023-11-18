@@ -1,0 +1,14 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-image: url(../image/login-bg.jpg);
+    background-repeat: repeat;
+}
+
+.sign-up-caption {
+    margin-top: 50px;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 30px;
+    color:  rgb(255, 94, 0);
+    text-align: center;
+}

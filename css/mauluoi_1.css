@@ -1,0 +1,220 @@
+.luoi{
+	width: 100%;
+	display: block;
+	padding: 0;
+}
+.chieurongluoi{
+	max-width: 1320px;
+	margin: 0 auto;
+}
+.hang{
+	display: flex;
+	flex-wrap: wrap;
+}
+.cot{
+	padding-left: 4px;
+	padding-right: 4px;
+}
+.cot-0{
+	display: none;     /*ẩn cột */
+}
+.cot-1{
+	/* cột có chiều rộng bằng 1 cột cơ sở*/
+	flex-shrink: 0;   /* không nhỏ đi */
+	flex-grow: 0;     /* không lớn lên */
+	flex-basis: 8.33%;  /* chiều rộng là 8.33% = 100%/12 cột */
+	/* viết rút gọn:  ;flex:  0 0 8.33%; */
+	max-width: 8.33%;
+}	
+.cot-2{
+	flex:  0 0 16.67%;
+	max-width: 16.67%;
+}
+
+.cot-3{
+	flex:  0 0 25%;
+	max-width: 25%;
+}
+
+.cot-4{
+	flex:  0 0 33.33%;
+	max-width: 33.33%;
+}
+
+.cot-5{
+	flex:  0 0 41.67%;
+	max-width: 41.67%;
+}
+
+.cot-6{
+	flex:  0 0 50%;
+	max-width: 50%;
+}
+.cot-7{
+	flex:  0 0 58.33%;
+	max-width: 58.33%;
+}
+
+.cot-8{
+	flex:  0 0 66.67%;
+	max-width: 66.67%;
+}
+.cot-9{
+	flex:  0 0 75%;
+	max-width: 75%;
+}
+.cot-10{
+	flex:  0 0 83.33%;
+	max-width: 83.33%;
+}
+.cot-11{
+	flex:  0 0 91.67%;
+	max-width: 91.67%;
+}
+.cot-12{
+	flex:  0 0 100%;
+	max-width: 100%;
+}
+
+@media (min-width: 1320px){
+	.chieurongluoi{
+		max-width: 1320px;
+	}
+	.hang{
+		margin-left: -24px;
+		margin-right: -24px;
+	}
+	.cot{
+		padding-left: 12px;
+		padding-right: 12px;
+	}
+	.maytinh-cot-0{
+		display: none;
+	}
+	.maytinh-cot-1{
+		flex:  0 0 8.33%;
+		max-width: 8.33%;
+	}
+	.maytinh-cot-2{
+	flex:  0 0 16.67%;
+	max-width: 16.67%;
+}
+
+.maytinh-cot-3{
+	flex:  0 0 25%;
+	max-width: 25%;
+}
+
+.maytinh-cot-4{
+	flex:  0 0 33.33%;
+	max-width: 33.33%;
+}
+
+.maytinh-cot-5{
+	flex:  0 0 41.67%;
+	max-width: 41.67%;
+}
+
+.maytinh-cot-6{
+	flex:  0 0 50%;
+	max-width: 50%;
+}
+.maytinh-cot-7{
+	flex:  0 0 58.33%;
+	max-width: 58.33%;
+}
+
+.maytinh-cot-8{
+	flex:  0 0 66.67%;
+	max-width: 66.67%;
+}
+.maytinh-cot-9{
+	flex:  0 0 75%;
+	max-width: 75%;
+}
+.maytinh-cot-10{
+	flex:  0 0 83.33%;
+	max-width: 83.33%;
+}
+.maytinh-cot-11{
+	flex:  0 0 91.67%;
+	max-width: 91.67%;
+}
+.maytinh-cot-12{
+	flex:  0 0 100%;
+	max-width: 100%;
+}
+
+
+}
+
+
+@media (max-width: 743px){
+	.chieurongluoi{
+		max-width: 743px;
+	}
+
+	.cot{
+		padding-left: 8px;
+		padding-right: 8px;
+	}
+	.dienthoai-cot-0{
+		display: none;
+	}
+	.dienthoai-cot-1{
+		flex:  0 0 8.33%;
+		max-width: 8.33%;
+	}
+	.dienthoai-cot-2{
+	flex:  0 0 16.67%;
+	max-width: 16.67%;
+}
+
+.dienthoai-cot-3{
+	flex:  0 0 25%;
+	max-width: 25%;
+}
+
+.dienthoai-cot-4{
+	flex:  0 0 33.33%;
+	max-width: 33.33%;
+}
+
+.dienthoai-cot-5{
+	flex:  0 0 41.67%;
+	max-width: 41.67%;
+}
+
+.dienthoai-cot-6{
+	flex:  0 0 50%;
+	max-width: 50%;
+}
+.dienthoai-cot-7{
+	flex:  0 0 58.33%;
+	max-width: 58.33%;
+}
+
+.dienthoai-cot-8{
+	flex:  0 0 66.67%;
+	max-width: 66.67%;
+}
+.dienthoai-cot-9{
+	flex:  0 0 75%;
+	max-width: 75%;
+}
+.dienthoai-cot-10{
+	flex:  0 0 83.33%;
+	max-width: 83.33%;
+}
+.dienthoai-cot-11{
+	flex:  0 0 91.67%;
+	max-width: 91.67%;
+}
+.dienthoai-cot-12{
+	flex:  0 0 100%;
+	max-width: 100%;
+}
+
+
+
+}
